@@ -17,8 +17,8 @@
     *   构建 **Logit 模型**，测算不同票价下的市场分担率与需求价格弹性 ($E_p$)。
     *   应用 **拉姆齐反弹性法则**，在覆盖边际成本的前提下求解社会福利最大化的最优票价。
 
-# 🚀 快速开始 (Quick Start)
-1. 环境依赖
+## 🚀 快速开始 (Quick Start)
+### 1. 环境依赖
 
 本项目基于 Python 3.8+ 开发，需安装以下依赖库：
 
@@ -28,25 +28,15 @@ download
 content_copy
 expand_less
 pip install pandas numpy matplotlib seaborn statsmodels requests scikit-learn
-2. 配置 API Key
+
+### 2. 配置 API Key
 
 在 code/step1_llm_analysis.py 中填入你的阿里云 DashScope API Key：
 
-code
-Python
-download
-content_copy
-expand_less
 API_KEY = "your_api_key_here"
-3. 运行模型
+### 3. 运行模型
 
 按顺序运行代码即可复现论文结果：
-
-code
-Bash
-download
-content_copy
-expand_less
 python code/step1_llm_analysis.py   # 生成 Q 值
 python code/step3_logit_model.py    # 估计参数
 python code/step5_ramsey_pricing.py # 输出最终定价方案图
