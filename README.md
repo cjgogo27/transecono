@@ -35,7 +35,8 @@
 │   └── figures/                 # 生成的图表 (如弹性曲线、定价方案图)
 └── README.md                    # 项目说明文档
 
-## 🚀 快速开始 (Quick Start)
+
+# 🚀 快速开始 (Quick Start)
 1. 环境依赖
 
 本项目基于 Python 3.8+ 开发，需安装以下依赖库：
@@ -68,7 +69,7 @@ expand_less
 python code/step1_llm_analysis.py   # 生成 Q 值
 python code/step3_logit_model.py    # 估计参数
 python code/step5_ramsey_pricing.py # 输出最终定价方案图
-## 📊 关键成果 (Key Findings)
+# 📊 关键成果 (Key Findings)
 
 服务价值量化：测算出成渝通道旅客对服务质量的支付意愿 (WTP) 约为 97 元/单位评分。
 
