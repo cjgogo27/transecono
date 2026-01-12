@@ -17,25 +17,6 @@
     *   构建 **Logit 模型**，测算不同票价下的市场分担率与需求价格弹性 ($E_p$)。
     *   应用 **拉姆齐反弹性法则**，在覆盖边际成本的前提下求解社会福利最大化的最优票价。
 
-## 📂 文件结构 (Structure)
-
-```bash
-├── code/                        # 核心代码目录
-│   ├── step1_llm_analysis.py    # 调用 LLM API 进行评论情感分析与量化
-│   ├── step2_build_dataset.py   # 构建离散选择模型所需的训练数据集
-│   ├── step3_logit_model.py     # 运行 Logit 回归，计算系数与 WTP
-│   ├── step4_elasticity.py      # 测算需求价格弹性
-│   └── step5_ramsey_pricing.py  # 求解拉姆齐最优定价并绘图
-├── data/                        # 数据文件
-│   ├── raw_comments.csv         # 爬取的原始评论数据
-│   └── processed_scores.csv     # LLM 评分后的结构化数据
-├── paper/                       # 论文源文件
-│   ├── main.tex                 # LaTeX 主文件
-│   ├── references.bib           # 参考文献
-│   └── figures/                 # 生成的图表 (如弹性曲线、定价方案图)
-└── README.md                    # 项目说明文档
-
-
 # 🚀 快速开始 (Quick Start)
 1. 环境依赖
 
