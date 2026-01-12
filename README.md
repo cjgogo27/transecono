@@ -12,7 +12,7 @@
 本项目构建了 **"LLM - Logit - Ramsey"** 三阶段闭环模型：
 
 1.  **数据获取 (Data Mining)**：利用 Python 爬虫采集携程、12306 等平台的成渝通道真实旅客评论数据。
-2.  **参数量化 (LLM Quantification)**：调用 **Qwen(通义千问)** API，通过 Prompt Engineering 从非结构化文本中提取“舒适度”、“便捷性”、“服务态度”评分，计算综合服务效用指数 ($Q$)。
+2.  **参数量化 (LLM Quantification)**：调用 **Qwen** API，通过 Prompt Engineering 从非结构化文本中提取“舒适度”、“便捷性”、“服务态度”评分，计算综合服务效用指数 ($Q$)。
 3.  **模型测算 (Economic Modeling)**：
     *   构建 **Logit 模型**，测算不同票价下的市场分担率与需求价格弹性 ($E_p$)。
     *   应用 **拉姆齐反弹性法则**，在覆盖边际成本的前提下求解社会福利最大化的最优票价。
