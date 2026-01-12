@@ -3,7 +3,7 @@
 
 ## 📖 项目简介 (Introduction)
 
-本项目是 **《交通运输与经济》** 课程的期末研究报告。
+本项目是 《交通运输与经济》 课程的期末研究报告。
 
 针对传统定价模型难以量化“服务舒适度”等隐性指标的痛点，本项目尝试了一种**跨学科**的解决方案：将**大语言模型（LLM）**引入交通经济学，利用 AI 对真实旅客评论进行语义挖掘，量化服务效用，并结合 **Logit 离散选择模型** 与 **拉姆齐（Ramsey）定价法则**，为即将开通的成渝中线高铁制定科学的差异化票价方案。
 
@@ -34,7 +34,8 @@
 │   ├── references.bib           # 参考文献
 │   └── figures/                 # 生成的图表 (如弹性曲线、定价方案图)
 └── README.md                    # 项目说明文档
-🚀 快速开始 (Quick Start)
+
+## 🚀 快速开始 (Quick Start)
 1. 环境依赖
 
 本项目基于 Python 3.8+ 开发，需安装以下依赖库：
@@ -67,7 +68,7 @@ expand_less
 python code/step1_llm_analysis.py   # 生成 Q 值
 python code/step3_logit_model.py    # 估计参数
 python code/step5_ramsey_pricing.py # 输出最终定价方案图
-📊 关键成果 (Key Findings)
+## 📊 关键成果 (Key Findings)
 
 服务价值量化：测算出成渝通道旅客对服务质量的支付意愿 (WTP) 约为 97 元/单位评分。
 
@@ -77,7 +78,7 @@ python code/step5_ramsey_pricing.py # 输出最终定价方案图
 
 💎 商务座：建议降价至 360 元（比既有线低 22%），以激活闲置运能。
 
-👨‍💻 写在最后 (Personal Note)
+## 👨‍💻 写在最后 (Personal Note)
 
 这个项目是我将 《交通运输规划原理》（Logit模型）、《运输经济学》（拉姆齐法则）与 《大数据与人工智能》（爬虫与LLM）多门课程知识进行融合的一次尝试。
 
